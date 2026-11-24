@@ -82,6 +82,8 @@ INSERT INTO clientes (id_cliente, nombre, email, ciudad, segmento, fecha_registr
 VALUES (2, 'Carlos Ibáñez', 'carlos.ibanez@mail.com', 'Buenos Aires', 'Mayorista', '2026-02-10');
 INSERT INTO clientes (id_cliente, nombre, email, ciudad, segmento, fecha_registro)
 VALUES (3, 'Lucía Fernández', 'lucia.fernandez@mail.com', 'Mendoza', 'Minorista', '2026-03-05');
+INSERT INTO clientes (id_cliente, nombre, email, ciudad, segmento, fecha_registro)
+VALUES (4, 'Sofía Ramírez', 'sofia.ramirez@mail.com', 'Rosario', 'Minorista', '2026-11-20');
 
 INSERT INTO territorios (id_territorio, region, pais, zona) VALUES (1, 'Santa Fe', 'Argentina', 'Centro');
 INSERT INTO territorios (id_territorio, region, pais, zona) VALUES (2, 'CABA', 'Argentina', 'Centro');
@@ -94,6 +96,7 @@ INSERT INTO productos (id_producto, nombre_producto, id_categoria, precio, costo
 INSERT INTO productos (id_producto, nombre_producto, id_categoria, precio, costo) VALUES (3, 'Auriculares Bluetooth JBL', 2, 45000.00, 22500.00);
 INSERT INTO productos (id_producto, nombre_producto, id_categoria, precio, costo) VALUES (4, 'Cargador rápido 20W', 2, 18000.00, 9000.00);
 INSERT INTO productos (id_producto, nombre_producto, id_categoria, precio, costo) VALUES (5, 'iPhone 11 Usado 64GB', 3, 380000.00, 285000.00);
+INSERT INTO productos (id_producto, nombre_producto, id_categoria, precio, costo) VALUES (6, 'Funda Silicona iPhone 13', 2, 15000.00, 7000.00);
 
 INSERT INTO ventas (id_venta, fecha_venta, id_cliente, id_producto, id_territorio, cantidad, total_venta, canal) VALUES (1, '2026-09-01', 1, 1, 1, 1, 650000.00, 'Sucursal');
 INSERT INTO ventas (id_venta, fecha_venta, id_cliente, id_producto, id_territorio, cantidad, total_venta, canal) VALUES (2, '2026-09-03', 2, 2, 2, 3, 1260000.00, 'Online');
